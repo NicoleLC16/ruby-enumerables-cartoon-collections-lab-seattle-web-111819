@@ -9,8 +9,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.find{|word| word.size > 4.any?}
-
+  array.find{|word| word.size > 4}
+  return array.include(true)
 end
 
 def find_the_cheese# code an argument here
