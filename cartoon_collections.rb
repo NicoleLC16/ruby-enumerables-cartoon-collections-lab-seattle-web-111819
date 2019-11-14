@@ -9,7 +9,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-array.find{|word| "#word".count > 4 == true }
+array.select{|word| "#word".count > 4 == true }
 end
 
 def find_the_cheese# code an argument here
