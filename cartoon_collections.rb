@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   array.map {|call| call.capitalize + "!"}
 end
 
-def long_planeteer_call(array)
+def long_planeteer_calls(array)
 array.find{|word| "#word.count" > 4 == true }
 end
 
