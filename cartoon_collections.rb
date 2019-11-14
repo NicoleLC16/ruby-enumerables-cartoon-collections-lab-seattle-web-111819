@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves_call = hash.new
-  dwarves.each_with_index{|name, index| dwarves_call[name]}
+  dwarves.each_with_index{|name, index| dwarves_call[name] = index}
   end
 
 def summon_captain_planet# code an argument here
