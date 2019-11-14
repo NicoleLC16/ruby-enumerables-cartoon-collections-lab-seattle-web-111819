@@ -15,7 +15,7 @@ def long_planeteer_calls(array)
     word.size < 4 == false
     puts false
   end
-  
+  array
 end
 
 def find_the_cheese# code an argument here
